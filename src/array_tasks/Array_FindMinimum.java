@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class Array_FindMinimum {
 
     public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4, 5};
+
+        int[] array = {10, 35, 21, 60, -12};
 
         System.out.println(minNumber(array));
     }

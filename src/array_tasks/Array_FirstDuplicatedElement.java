@@ -5,8 +5,10 @@ public class Array_FirstDuplicatedElement {
     public static void main(String[] args) {
 
         int[] array = {1, 2, 3, 4, 4, 5, 5};
+        int[] arr = {10, 35, 21, 60, -12, 10, 35};
 
         System.out.println(firstDupNum(array));
+        System.out.println(firstDupNum(arr));
     }
 
     public static int firstDupNum(int[] array){
