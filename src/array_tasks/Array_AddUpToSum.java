@@ -6,6 +6,7 @@ import java.util.Map;
 public class Array_AddUpToSum {
 
     public static void main(String[] args) {
+
         int[] arr = {8, 7, 2, 5, 3, 1};
         int[] arr2 = {8, 6, 2, 5, 3, 1};
         System.out.println(sum(arr, 10));
