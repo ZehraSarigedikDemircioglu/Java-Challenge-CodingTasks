@@ -33,7 +33,7 @@ public class Array_CountFrequencies {
                 }
             }
         }
-        return str;
+        return "str: " + str + " length: " +str.length();
     }
 }
  /*

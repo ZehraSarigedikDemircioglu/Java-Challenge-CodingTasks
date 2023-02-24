@@ -6,7 +6,8 @@ import java.util.OptionalInt;
 public class Array_FindMaximum {
 
     public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4, 5};
+
+        int[] array = {10, 35, 21, 60, -12};
 
         System.out.println(maxNUmber(array));
         System.out.println(maxNumber2(array));
