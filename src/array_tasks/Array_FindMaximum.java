@@ -10,7 +10,8 @@ public class Array_FindMaximum {
         int[] array = {10, 35, 21, 60, -12};
 
         System.out.println(maxNUmber(array));
-        System.out.println(maxNumber2(array));
+        System.out.println(maxNumber2(array)); // Stream1
+        System.out.println(maxNumber3(array)); //Stream2
     }
 
     public static int maxNUmber(int[] array){
@@ -25,6 +26,10 @@ public class Array_FindMaximum {
     }
     public static int maxNumber2(int[] array){
         return Arrays.stream(array).max().getAsInt();
+    }
+
+    public static int maxNumber3(int[] array){
+        return Arrays.stream(array).reduce(Integer::max).getAsInt();
     }
 }
 /*
