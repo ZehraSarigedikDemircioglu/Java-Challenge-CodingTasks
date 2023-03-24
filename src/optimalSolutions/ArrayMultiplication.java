@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class ArrayMultiplication {
 
     public static void main(String[] args) {
+        
         int[] arr = {2, 3, 4, 5, 6};
         System.out.println(Arrays.toString(multiplyArray(arr))); // [6, 8, 15, 24, 30]
     }
